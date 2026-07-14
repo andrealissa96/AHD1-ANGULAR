@@ -1,0 +1,8 @@
+<h2> INSTRUCTORES</h2>
+
+@for (instructor of instructores; track instructor.idInstructor){
+<div>
+    
+    <app-instructor-card [instructor]="instructor" class="body"></app-instructor-card>
+</div>
+}

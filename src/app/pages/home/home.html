@@ -1,0 +1,19 @@
+<body>
+<app-banner></app-banner>
+
+<section class="cursos-destacados">
+
+    <h2> Cursos Destacados</h2>
+
+<!--PENDIENTE DE COLOCAR CARD SOBRE CURSOS-->
+
+@for(curso of cursos; track curso.idCurso){
+    <app-curso-card [curso]="curso"></app-curso-card>
+}
+</section>
+
+<section class="instructores">
+
+<!--PENDIENTE DE COLOCAR CARD SOBRE INSTRUCTORES-->
+</section>
+</body>
