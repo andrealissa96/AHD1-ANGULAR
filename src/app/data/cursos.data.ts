@@ -9,7 +9,7 @@ export const CURSOS: CursoModel[]=[
         modalidad: "Virtual",
         idInstructor: 1,
         imagen: "https://cdn-icons-png.flaticon.com/512/3128/3128323.png",
-        destacado: false
+        destacado: true
     },
 
 

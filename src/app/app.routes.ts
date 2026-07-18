@@ -32,6 +32,7 @@ component: Cursos
     path: 'contacto',
     component: Contacto
 },
+
 {
     path: '**',
     redirectTo: ' '

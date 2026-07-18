@@ -1,0 +1,29 @@
+.todas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+h2 {
+    text-align: center;
+    position: relative;
+    
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 200px;          
+    height: 7px;          
+    background-color: #6a039d;
+    margin: 4px auto 0;   
+    border-radius: 5px;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    color: rgb(86, 83, 87);
+}

@@ -1,8 +1,10 @@
 <h2> INSTRUCTORES</h2>
-
+<h3>Contamos con los mejores profesionales, con pasión en su materia</h3>
+<div class="todas">
 @for (instructor of instructores; track instructor.idInstructor){
-<div>
+
     
-    <app-instructor-card [instructor]="instructor" class="body"></app-instructor-card>
-</div>
+    <app-instructor-card [instructor]="instructor" class="todas"></app-instructor-card>
+
 }
+</div>

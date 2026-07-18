@@ -1,19 +1,32 @@
 <body>
-<app-banner></app-banner>
+    <app-banner></app-banner>
 
-<section class="cursos-destacados">
 
-    <h2> Cursos Destacados</h2>
+    <div class="titulo">
 
-<!--PENDIENTE DE COLOCAR CARD SOBRE CURSOS-->
+        <h2> Cursos Destacados</h2>
+        <h3>Los cursos más populares</h3>
 
-@for(curso of cursos; track curso.idCurso){
-    <app-curso-card [curso]="curso"></app-curso-card>
-}
-</section>
+    </div>
 
-<section class="instructores">
 
-<!--PENDIENTE DE COLOCAR CARD SOBRE INSTRUCTORES-->
-</section>
+    <section class="cursos-destacados">
+
+        @for(curso of cursos; track curso.idCurso){
+        <app-curso-card [curso]="curso"></app-curso-card>
+        }
+        
+    </section>
+
+    <h2> Instructores Destacados</h2>
+        <h3>Los mejores profesionales</h3>
+
+    <section class="instructores-destacados">
+        
+
+        @for (instructor of instructores; track instructor.idInstructor) {
+        <app-instructor-card [instructor]="instructor"></app-instructor-card>
+        }
+        <!--PENDIENTE DE COLOCAR CARD SOBRE INSTRUCTORES-->
+    </section>
 </body>

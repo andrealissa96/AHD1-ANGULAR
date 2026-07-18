@@ -4,4 +4,5 @@ nombre: string;
 profesion: string;
 correo: string;
 fotografia: string;
+destacado?: boolean;
 }

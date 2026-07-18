@@ -1,14 +1,16 @@
 
 <h2> CURSOS</h2>
+<h3> Explora nuestra variedad de cursos, impartidos por los mejores profesionales</h3>
 
+
+<div class="todas">
 @for (curso of cursos; track curso.idCurso){
 
-<div>
+
     
-    <app-curso-card [curso]="curso" class="body"></app-curso-card>
+    <app-curso-card [curso]="curso" class="todas"></app-curso-card>
 
 
-
-</div>
 }
+</div>
 

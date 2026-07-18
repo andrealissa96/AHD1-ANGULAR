@@ -9,4 +9,8 @@ export class InstructorService {
   obtenerInstructores(): InstructorModel[] {
     return INSTRUCTORES;
   }
+
+  getInstructoresDestacados(): InstructorModel[] {
+    return INSTRUCTORES.filter(instructor => instructor.destacado === true);
+  }
 }
